@@ -15,7 +15,7 @@
 
 
 # File introduction
-tok.py
+## tok.py
 
 Input: text documents wiki_00, wiki_01... in folder ./text/AA
 
@@ -27,7 +27,7 @@ Note: This file is not runnable on server(because of the lack of nltk package), 
 
 
 
-pycuda_wwoc_matrix.py (generate co-occurrence matrix by gpu)
+## pycuda_wwoc_matrix.py (generate co-occurrence matrix by gpu)
 
 input:freq_word.csv, wiki_00001token.csv,wiki_00002token.csv ..
 
@@ -44,8 +44,7 @@ If you want to try integer version, comment line 217, uncomment line 221, commen
 
 
 
-
-CPU_co_occur.py (generate co-occurrence matrix by cpu)
+## CPU_co_occur.py (generate co-occurrence matrix by cpu)
 
 input:freq_word.csv, wiki_00001token.csv,wiki_00002token.csv ...
 
@@ -59,9 +58,7 @@ If you want to try integer version, comment line 50, uncomment line 51, comment 
 
 
 
-
-
-compare.py
+## compare.py
 
 Input: WWOC_matrix_all.csv, output of python version of WWOC matrix
 
@@ -73,9 +70,7 @@ Note: Code and data are in same folder.
 
 
 
-
-
-model.py(training Glove Model)
+## model.py(training Glove Model)
 
 input: WWOC_matrix_all.csv or CPU_co_occurMat.csv
 
@@ -89,7 +84,7 @@ Note: You can directly run this file after you get WWOC_matrix_all.csv or CPU_co
 
 
 
-model_test.py (model result test)
+## model_test.py (model result test)
 
 Input: tensorflow model, file should be modified when you get a new model
 
@@ -99,6 +94,6 @@ Note: can only be run after training model and modifying the path within this fi
 
 
 
-metadata.tsv 
+## metadata.tsv 
 
 For visualization in tensorboard
