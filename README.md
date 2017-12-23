@@ -7,7 +7,7 @@
 ![](block.png)
 
 # Result visualization
-
+![](embedding.png)
 
 
 
