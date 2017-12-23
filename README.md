@@ -3,7 +3,7 @@
 2. Implement GPU version word-word co-occurrence statistics. (pycuda_wwoc_matrix.py)
 3. Train GloVe model using tensorflow. (model.py)
 
-# Project diagram
+# Project diagram (only for GPU version, CPU version just use one thread in co-occurrence counter)
 ![](block.png)
 
 # Result visualization
